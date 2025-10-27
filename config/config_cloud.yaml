@@ -1,0 +1,22 @@
+# Paths for cloud deployment with sample data
+data:
+  raw_path: "data/sample/"
+  processed_path: "data/processed/"
+  ml25m_path: "data/sample/"
+  netflix_path: "data/sample/"
+  tmdb_path: "data/sample/"
+
+# Model settings
+models:
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"  # Smaller, faster model
+  groq_model: "llama-3.3-70b-versatile"
+
+# RAG settings
+rag:
+  top_k: 10
+  similarity_threshold: 0.5
+
+# ChromaDB settings
+chroma:
+  collection_name: "movie_embeddings"
+  persist_directory: "data/processed/chroma_db"
