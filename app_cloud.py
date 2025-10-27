@@ -10,15 +10,10 @@ st.set_page_config(
 st.title("🎬 AI-Powered Movie Recommendation System")
 st.markdown("### RAG + Groq API Demo")
 
-st.info("""
-**📌 Demo Mode**: This is a demonstration of the user interface and concept.
-
-For the **full working version** with 75,000+ movies, please clone and run locally:
-""")
 
 
 
-st.markdown("---")
+
 
 # Demo interface
 user_query = st.text_area(
@@ -155,8 +150,3 @@ if st.button("Get Demo Recommendations", type="primary"):
         st.warning("Please enter your movie preferences")
 
 # Footer with links
-st.markdown("---")
-st.markdown(""")
-
-
-
