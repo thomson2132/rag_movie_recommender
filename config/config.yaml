@@ -1,0 +1,22 @@
+# Paths
+data:
+  raw_path: "data/raw/"
+  processed_path: "data/processed/"
+  ml25m_path: "data/raw/ml-25m/"
+  netflix_path: "data/raw/netflix/"
+  tmdb_path: "data/raw/tmdb/"
+
+# Model settings
+models:
+  embedding_model: "sentence-transformers/all-mpnet-base-v2"
+  groq_model: "llama-3.3-70b-versatile"
+
+# RAG settings
+rag:
+  top_k: 15
+  similarity_threshold: 0.5
+
+# ChromaDB settings
+chroma:
+  collection_name: "movie_embeddings"
+  persist_directory: "data/processed/chroma_db"

@@ -1,0 +1,13 @@
+groq
+langchain
+langchain-groq
+chromadb
+sentence-transformers
+torch
+pandas
+numpy
+scikit-learn
+streamlit
+python-dotenv
+pyyaml
+tqdm
