@@ -16,12 +16,7 @@ st.info("""
 For the **full working version** with 75,000+ movies, please clone and run locally:
 """)
 
-# GitHub repository link
-st.code("""
-git clone https://github.com/YOUR_USERNAME/rag-movie-recommender.git
-cd rag-movie-recommender
-# Follow setup instructions in README.md
-""", language="bash")
+
 
 st.markdown("---")
 
@@ -161,12 +156,7 @@ if st.button("Get Demo Recommendations", type="primary"):
 
 # Footer with links
 st.markdown("---")
-st.markdown("""
-### 📖 Learn More
+st.markdown(""")
 
-- 🔗 [View on GitHub](https://github.com/YOUR_USERNAME/rag-movie-recommender)
-- 📄 [Read the Documentation](https://github.com/YOUR_USERNAME/rag-movie-recommender#readme)
-- 💻 [Clone for Local Use](https://github.com/YOUR_USERNAME/rag-movie-recommender)
 
-**Note**: Replace `YOUR_USERNAME` with your actual GitHub username.
-""")
+
